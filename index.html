@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SocialQ | AI Social Media Growth Hacker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <!-- Cinematic background shapes -->
+  <div class="bg-cinematic">
+    <span class="shape shape-1"></span>
+    <span class="shape shape-2"></span>
+    <span class="shape shape-3"></span>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="#home" class="logo" aria-label="SocialQ Home">
+        <!-- Inline SVG logo so we avoid extra network request -->
+        <svg width="140" height="32" viewBox="0 0 140 32" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <text x="0" y="24" font-family="Poppins, sans-serif" font-size="24" fill="#1A1A1A">Social</text>
+          <rect x="90" y="0" width="32" height="32" rx="8" fill="url(#grad)" />
+          <path d="M104 23C108.418 23 112 19.4183 112 15C112 10.5817 108.418 7 104 7C99.5817 7 96 10.5817 96 15" stroke="#1A1A1A" stroke-width="4" stroke-linecap="round"/>
+          <defs>
+            <linearGradient id="grad" x1="90" y1="0" x2="122" y2="32" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#DD2A7B" />
+              <stop offset="50%" stop-color="#F58529" />
+              <stop offset="100%" stop-color="#8134AF" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#join">Join Waitlist</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home" tabindex="-1">
+    <!-- Section 1 – Hero Banner -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner fade-in">
+        <h1 id="hero-heading" class="tagline">AI Social Media Growth Hacker</h1>
+        <p class="support-line">Built to deliver social strategy that works.</p>
+
+        <form id="waitlist-form" class="cta-form" novalidate>
+          <label class="sr-only" for="email">Email address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+          <button type="submit" class="cta-button">Join the Waiting List</button>
+          <span class="form-feedback" aria-live="polite"></span>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section 2 – Live Stats -->
+    <section class="stats" aria-labelledby="stats-heading">
+      <div class="container fade-in delay-1">
+        <p class="stats-subtitle">BACKED BY RELEVANT, REAL-TIME, PLATFORM-SPECIFIC DATA</p>
+        <h2 id="stats-heading">Social Media Posts Analyzed by SocialQ</h2>
+        <p class="big-number" id="posts-analyzed">29,171,793</p>
+      </div>
+    </section>
+
+    <!-- Section 3 – Key Features -->
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="container fade-in delay-2">
+        <h2 id="features-heading" class="subject-line">Validated by Industry Giants — From TikTok and Meta to Scale AI and Amazon, Global DTC Brands and Market Leaders Rely on SocialQ to Solve Social Marketing Pain Points.</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>🎯 The AI Personal Stylist of Social Creative</h3>
+            <p>No more misaligned briefs or creative fatigue. Get social-first, on-brand, platform-native, and insight-led content strategy—so you can skip cross-team headaches and get content into production faster.</p>
+          </article>
+
+          <article class="feature-card">
+            <h3>🧠 Your AI-Powered Google for Decoding Social</h3>
+            <p>No more scrolling marathons. Instantly uncover what’s working for your audience—so your next move is data-backed and outperforming from day one.</p>
+          </article>
+
+          <article class="feature-card">
+            <h3>📈 Your AI-Powered Bloomberg Terminal for Social Listening</h3>
+            <p>No more missed signals or PR surprises. Track real-time social signals and spot what’s trending—so you catch opportunities early, reduce risk, and shape winning content.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Repeated CTA at bottom for convenience -->
+    <section class="cta-bottom" id="join" aria-labelledby="join-heading">
+      <div class="container fade-in delay-3">
+        <h2 id="join-heading">Be the first to master every platform with SocialQ</h2>
+        <form id="waitlist-form-bottom" class="cta-form" novalidate>
+          <label class="sr-only" for="email-bottom">Email address</label>
+          <input type="email" id="email-bottom" name="email" placeholder="Enter your email address" required />
+          <button type="submit" class="cta-button">Join the Waiting List</button>
+          <span class="form-feedback" aria-live="polite"></span>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <small>© <span id="year"></span> SocialQ. All rights reserved.</small>
+    </div>
+  </footer>
+</body>
+</html>
