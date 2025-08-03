@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SocialQ - AI Social Media Growth Hacker</title>
+    <meta name="description" content="Built to deliver social strategy that works. The AI-powered social media growth platform trusted by industry giants.">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Critical CSS will be inlined -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Meta tags for social sharing -->
+    <meta property="og:title" content="SocialQ - AI Social Media Growth Hacker">
+    <meta property="og:description" content="Built to deliver social strategy that works.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+    <!-- Cinematic Background -->
+    <div class="cinematic-background">
+        <div class="gradient-overlay"></div>
+        <div class="floating-elements">
+            <div class="floating-element element-1"></div>
+            <div class="floating-element element-2"></div>
+            <div class="floating-element element-3"></div>
+            <div class="floating-element element-4"></div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" role="banner">
+        <nav class="nav-container" role="navigation" aria-label="Main navigation">
+            <div class="logo-container">
+                <div class="logo">
+                    <span class="logo-text">Social</span>
+                    <div class="logo-q">Q</div>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#waitlist" class="nav-link">Croweit</a>
+                <button class="cta-button-nav" onclick="scrollToWaitlist()">Join Waitlist</button>
+            </div>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: Hero/Main Banner -->
+        <section class="hero-section" id="hero" role="main">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-logo">
+                        <span class="hero-logo-text">Social</span>
+                        <div class="hero-logo-q">Q</div>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line-1">AI Strategist Behind</span>
+                        <span class="title-line-2">Social Growth</span>
+                    </h1>
+                    <p class="hero-subtitle">Built to deliver social strategy that works.</p>
+                    
+                    <!-- Waitlist Form in Hero -->
+                    <div class="hero-cta" id="waitlist">
+                        <div class="waitlist-form">
+                            <h3 class="waitlist-title">Join the Waiting List</h3>
+                            <p class="waitlist-subtitle">Prepare for 10 seasons & 6 Genres</p>
+                            <form class="email-form" id="waitlistForm" novalidate>
+                                <div class="form-group">
+                                    <input 
+                                        type="email" 
+                                        id="email" 
+                                        name="email" 
+                                        placeholder="Email here" 
+                                        class="email-input"
+                                        required
+                                        aria-label="Email address"
+                                        autocomplete="email"
+                                    >
+                                    <button type="submit" class="submit-button" aria-label="Join waiting list">
+                                        Join the Waiting List
+                                    </button>
+                                </div>
+                                <div class="form-group">
+                                    <input 
+                                        type="text" 
+                                        id="name" 
+                                        name="name" 
+                                        placeholder="Your name" 
+                                        class="name-input"
+                                        required
+                                        aria-label="Your name"
+                                        autocomplete="name"
+                                    >
+                                </div>
+                                <div class="error-message" id="errorMessage" role="alert"></div>
+                                <div class="success-message" id="successMessage" role="status"></div>
+                            </form>
+                            <div class="privacy-note">
+                                <p>Aenean congue mauris lacus, eget euismod lorem rutrum ac. Nullam et lacinia tellus, eget vulputate tellus.</p>
+                            </div>
+                            <button class="learn-more-button">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Data Analytics -->
+        <section class="data-section" id="data" role="region" aria-labelledby="data-title">
+            <div class="container">
+                <div class="data-content">
+                    <h2 id="data-title" class="data-subtitle">Backed By Relevant, Real-Time, Platform-Specific Data</h2>
+                    <h3 class="data-main-title">Social Media Posts Analyzed by SocialQ</h3>
+                    <div class="counter-container">
+                        <div class="counter-number" id="postsCounter">29,171,793</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Features -->
+        <section class="features-section" id="features" role="region" aria-labelledby="features-title">
+            <div class="container">
+                <div class="features-content">
+                    <h2 id="features-title" class="features-main-title">
+                        <span class="highlight-text">Validated by Industry Giants</span> — From TikTok and Meta to Scale AI and Amazon, 
+                        <span class="highlight-text">Global DTC Brands and Market Leaders</span> Rely on SocialQ to 
+                        <span class="highlight-text">Solve Social Marketing Pain Points.</span>
+                    </h2>
+                    
+                    <div class="features-grid">
+                        <div class="feature-card">
+                            <div class="feature-icon">🎯</div>
+                            <h3 class="feature-title">The AI Personal Stylist of Social Creative</h3>
+                            <p class="feature-description">
+                                No more misaligned briefs or creative fatigue. Get social-first, on-brand, platform-native, 
+                                and insight-led content strategy—so you can skip cross-team headaches and get content into production faster.
+                            </p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">🧠</div>
+                            <h3 class="feature-title">Your AI-Powered Google for Decoding Social</h3>
+                            <p class="feature-description">
+                                No more scrolling marathons. Instantly uncover what's working for your audience—so your next move 
+                                is data-backed and outperforming from day one.
+                            </p>
+                        </div>
+                        
+                        <div class="feature-card">
+                            <div class="feature-icon">📈</div>
+                            <h3 class="feature-title">Your AI-Powered Bloomberg Terminal for Social Listening</h3>
+                            <p class="feature-description">
+                                No more missed signals or PR surprises. Track real-time social signals and spot what's trending—so 
+                                you catch opportunities early, reduce risk, and shape winning content.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Logo Section -->
+        <section class="final-logo-section" role="region">
+            <div class="container">
+                <div class="final-logo">
+                    <span class="final-logo-text">Social</span>
+                    <div class="final-logo-q">Q</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <p>&copy; 2024 SocialQ. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js" defer></script>
+</body>
+</html>
